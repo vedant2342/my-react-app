@@ -18,7 +18,7 @@ const About = () => (
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div className="app">
         <nav className="navbar">
           <ul>
